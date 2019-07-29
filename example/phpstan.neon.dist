@@ -1,0 +1,8 @@
+# Start command: composer update && vendor/bin/phpstan analyze
+
+includes:
+    - vendor/szepeviktor/phpstan-phpdoc/extension.neon
+parameters:
+    inferPrivatePropertyTypeFromConstructor: true
+    paths:
+        - %currentWorkingDirectory%/src/

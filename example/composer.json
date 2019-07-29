@@ -1,0 +1,11 @@
+{
+    "name": "my-project/with-valid-phpdoc",
+    "description": "Project.",
+    "require": {
+        "php": "~7.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan-shim": "^0.11.0",
+        "szepeviktor/phpstan-phpdoc": "^0.1.0"
+    }
+}
