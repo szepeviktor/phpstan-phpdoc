@@ -1,6 +1,6 @@
 # PHPDoc and typehint checks only for PHPStan
 
-[![CircleCI](https://circleci.com/gh/szepeviktor/phpstan-phpdoc.svg?style=svg)](https://circleci.com/gh/szepeviktor/phpstan-phpdoc) [![Packagist](https://img.shields.io/packagist/v/szepeviktor/phpstan-wordpress.svg?color=239922&style=popout)](https://packagist.org/packages/szepeviktor/phpstan-phpdoc)
+[![CircleCI](https://circleci.com/gh/szepeviktor/phpstan-phpdoc.svg?style=svg)](https://circleci.com/gh/szepeviktor/phpstan-phpdoc) [![Packagist](https://img.shields.io/packagist/v/szepeviktor/phpstan-phpdoc.svg?color=239922&style=popout)](https://packagist.org/packages/szepeviktor/phpstan-phpdoc)
 
 [PHPStan](https://github.com/phpstan/phpstan)
 
