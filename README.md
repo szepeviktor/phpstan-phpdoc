@@ -2,19 +2,30 @@
 
 [![CircleCI](https://circleci.com/gh/szepeviktor/phpstan-phpdoc.svg?style=svg)](https://circleci.com/gh/szepeviktor/phpstan-phpdoc) [![Packagist](https://img.shields.io/packagist/v/szepeviktor/phpstan-wordpress.svg?color=239922&style=popout)](https://packagist.org/packages/szepeviktor/phpstan-phpdoc)
 
-[PHPStan](https://github.com/phpstan/phpstan)
+This [PHPStan](https://github.com/phpstan/phpstan) extension
+checks only PHPDoc and typehint related errors in your code.
 
-### Usage
+## Installation
 
-1. Install `szepeviktor/phpstan-phpdoc` Composer package.
 1. Do not set rule level (`--level`)
-1. Include its configuration:
+1. Require this package in [Composer](https://getcomposer.org/):
 
-```yaml
+```
+composer require --dev szepeviktor/phpstan-phpdoc
+```
+
+If you also install [phpstan/extension-installer](https://github.com/phpstan/extension-installer)
+then you're all set.
+
+<details>
+<summary>Manual installation</summary>
+
+If you don't want to use `phpstan/extension-installer`,
+include extension.neon in your project's PHPStan config:
+
+```
 includes:
     - vendor/szepeviktor/phpstan-phpdoc/extension.neon
 ```
 
-### What this extension does
-
-Checks only PHPDoc and typehint related errors in your code.
+</details>
